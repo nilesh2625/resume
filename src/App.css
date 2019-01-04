@@ -1,0 +1,163 @@
+.navbar {
+  background-color: transparent;
+  align-content: center;
+}
+
+.top-nav-collapse {
+  background-color: #000000;
+}
+
+.navbar-default{
+	background-color: #e74c3c ; 
+}
+.navbar-default .navbar-header > a {
+	color: #ecf0f1 ; 
+}
+.navbar-default .navbar-nav > li > a{
+	color:#ecf0f1 ;
+}
+
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+	border-bottom: 2px solid #ecf0f1;
+	background-color: yellow;
+}
+a:hover { 
+  color: white; background: blue;
+}
+#navbar-text{
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-style: normal;
+  font-weight: 10000;
+	font-size: 45px;
+	border: #000000;
+	color: #000000;
+	background-color: Transparent;
+	background-repeat:no-repeat;
+	border: none;
+	cursor:pointer;
+	overflow: hidden;
+	outline:none;
+	margin-right: 50px;
+}
+.menubar{
+  background-image: url('../src/image/s.JPG');
+  background-size: cover;
+  height: 100%;
+	background-position: left;
+	background-size: cover;
+	
+  width: 100%;
+	
+  position: fixed;
+	left: 0;
+
+}
+
+@media screen and (max-width: 1024px) { /* Specific to this particular image */
+  .menubar {
+    left: 50%;
+    margin-left: 512px;   /* 50% */
+  }
+}
+.container-fluid {
+	padding-right: 0px !important;
+	padding-left: 0px !important;
+}
+#myPageContent, section { 
+height:100% !important; 
+width:100% !important;
+}
+
+
+/* Slider */
+#textSlider.row {
+position: absolute;
+top: 50%;
+left: 65%;
+transform: translate(-50%, -50%);
+width: 100% !important;
+}
+#textSlider div {
+color: black;
+font-family: 'Lato', sans-serif;
+text-transform: uppercase;
+}
+
+.iamCol {
+	text-align: right;
+float: left;
+font-weight: 300;
+font-size:30pt;
+}
+.iamCol p:nth-child(2) { margin-top: -20pt !important; }
+.slideCol {
+text-align: left;
+	overflow: hidden;
+font-weight: 900;
+font-size:70pt;
+display: block;
+white-space: nowrap;
+}
+.slideCol p { margin: 0px !important; }
+
+.scroller {
+ height: 70pt;
+ line-height: 70pt;
+ overflow: hidden;
+}
+.scroller .inner { animation: 10s normal infinite running scroll; }
+@keyframes scroll {
+ 0%  	{margin-top: 0px;}
+ 15% 	{margin-top: 0px;}
+
+ 25%  {margin-top: -70pt;}
+ 40%  {margin-top: -70pt;}
+ 
+ 50%  {margin-top: -140pt;}
+ 65%  {margin-top: -140pt;}
+
+ 75%  {margin-top: -210pt;}
+ 90%  {margin-top: -210pt;}
+
+ 100% {margin-top: 0px;}
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 70px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 150%;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+.fa-github {
+	background: #AD5C51;
+	color: white;
+}
